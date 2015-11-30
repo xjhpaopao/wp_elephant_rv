@@ -1,0 +1,535 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "WooCommerce Checkout Manager"
+msgstr ""
+
+#. Short description.
+msgid "Manages WooCommerce Checkout"
+msgstr ""
+
+#. Screenshot description.
+msgid "<p>SETTINGS PAGE</p>"
+msgstr ""
+
+#. Screenshot description.
+msgid "<p>ORDER SUMMARY</p>"
+msgstr ""
+
+#. Screenshot description.
+msgid "<p>RECEIPT</p>"
+msgstr ""
+
+#. Screenshot description.
+msgid "<p>INPUT TYPE</p>"
+msgstr ""
+
+#. Screenshot description.
+msgid "<p>CHECKBOX</p>"
+msgstr ""
+
+#. Screenshot description.
+msgid "<p>DATE PICKER</p>"
+msgstr ""
+
+#. Screenshot description.
+msgid "<p>SELECT OPTIONS</p>"
+msgstr ""
+
+#. Found in description header.
+msgid "FEATURES"
+msgstr ""
+
+#. Found in description header.
+msgid "PRO VERSION"
+msgstr ""
+
+#. Found in description header.
+msgid "INCLUDED TRANSLATIONS (Alphabetical order)"
+msgstr ""
+
+#. Found in description header.
+msgid "------------ THANK YOU FOR DOWNLOADING ------------"
+msgstr ""
+
+#. Found in description list item.
+msgid "Add new fields to the checkout page and re-order them."
+msgstr ""
+
+#. Found in description list item.
+msgid "Make checkout fields optional."
+msgstr ""
+
+#. Found in description list item.
+msgid "Remove &amp; Make required fields. "
+msgstr ""
+
+#. Found in description list item.
+msgid "Added fields will appear on Order Summary, Receipt and Back-end in Orders."
+msgstr ""
+
+#. Found in description list item.
+msgid "Enable/ Disable \"Additional Fields\" section name on the Order Summary and Receipt."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Four ( 4 )</strong> fields types included: Text Input + Check Box + Select Options + Date Picker."
+msgstr ""
+
+#. Found in description list item.
+msgid "Compatible with <a href=\"http://wpml.org/\">WPML</a> | <a href=\"http://wordpress.org/plugins/woocommerce-delivery-notes/\">WooCommerce Print Invoice &amp; Delivery Note</a> | <a href=\"http://www.woothemes.com/products/ordercustomer-csv-export/\"> WooCommerce Order/Customer CSV Export</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>NEW</strong> -- Show or Hide fields for user roles"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>NEW</strong> -- Upload files on Checkout Page"
+msgstr ""
+
+#. Found in description list item.
+msgid "Sort Orders by Field Name"
+msgstr ""
+
+#. Found in description list item.
+msgid "Export Orders by Field Name"
+msgstr ""
+
+#. Found in description list item.
+msgid "Add new fields to the <strong>Billing</strong> and <strong>Shipping</strong> Section <strong>separately</strong> from Additional Section. "
+msgstr ""
+
+#. Found in description list item.
+msgid "These fields can be edited on your customers <strong>account</strong> page."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Fifteen ( 16 )</strong> field types included: Text Area + Password + Radio + Select + Pre-defined Check Box + Time Picker + <strong>Text/ Html Swapper</strong> + Color Picker + Heading + Multi-Select + Multi-Checkbox + <strong>File Picker</strong> etc..."
+msgstr ""
+
+#. Found in description list item.
+msgid "Create Conditional Fields."
+msgstr ""
+
+#. Found in description list item.
+msgid "Create field to remove tax."
+msgstr ""
+
+#. Found in description list item.
+msgid "Create field to add additional amount."
+msgstr ""
+
+#. Found in description list item.
+msgid "Replace Text using Text/ Html Swapper."
+msgstr ""
+
+#. Found in description list item.
+msgid "Allow Customers to <strong>Upload files</strong> for each order on order details page."
+msgstr ""
+
+#. Found in description list item.
+msgid "Show or Hide added field for Specific Product or Category Only."
+msgstr ""
+
+#. Found in description list item.
+msgid "Display <strong>Payment Method</strong> and Shipping Method used by customer."
+msgstr ""
+
+#. Found in description list item.
+msgid "Disable any added field from Checkout details page and Order Receipt."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Retain fields information</strong> for customers when they navigate back and forth from checkout."
+msgstr ""
+
+#. Found in description list item.
+msgid "Disable Billing Address fields for chosen shipping goods. Which makes them visible only for virtual goods."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>DatePicker:</strong> Change the default format (dd-mm-yy), Set Minimum Date and Maximum Date, Disable days in the week (Sun – Sat)."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>TimePicker:</strong> Includes restriction of both start and end hours, set the minutes interval and manually input labels."
+msgstr ""
+
+#. Found in description list item.
+msgid "Area to insert your own <strong>Custom CSS</strong>."
+msgstr ""
+
+#. Found in description list item.
+msgid "Display <strong>Order Time</strong>."
+msgstr ""
+
+#. Found in description list item.
+msgid "Set Default State for checkout."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Import/ Export</strong> added fields data."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fields label can accept html characters."
+msgstr ""
+
+#. Found in description list item.
+msgid "Re-position the added fields: Before Shipping Form, After Shipping Form, Before Billing Form, After Billing Form or After Order Notes"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Insert Notice:</strong> Before Customer Address Fields and Before Order Summary on checkout page."
+msgstr ""
+
+#. Found in description list item.
+msgid "BRAZILIAN PORTUGUESE"
+msgstr ""
+
+#. Found in description list item.
+msgid "BULGARIAN by Ivo Minchev"
+msgstr ""
+
+#. Found in description list item.
+msgid "CHINESE by Sid Lo"
+msgstr ""
+
+#. Found in description list item.
+msgid "DUTCH"
+msgstr ""
+
+#. Found in description list item.
+msgid "EUROPEAN PORTUGUESE"
+msgstr ""
+
+#. Found in description list item.
+msgid "FINNISH"
+msgstr ""
+
+#. Found in description list item.
+msgid "FRENCH"
+msgstr ""
+
+#. Found in description list item.
+msgid "GERMAN"
+msgstr ""
+
+#. Found in description list item.
+msgid "ITALIAN"
+msgstr ""
+
+#. Found in description list item.
+msgid "NORWEGIAN"
+msgstr ""
+
+#. Found in description list item.
+msgid "POLISH"
+msgstr ""
+
+#. Found in description list item.
+msgid "SERBIAN by Andrijana Nikolic at <a href=\"http://webhostinggeeks.com/\">webhostinggeeks</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "SPANISH"
+msgstr ""
+
+#. Found in description list item.
+msgid "VIETNAMSE"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This extension plugin gives you capabilities to manage your fields on your <a href=\"http://wordpress.org/plugins/woocommerce/\">WooCommerce</a> checkout page."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href=\"http://www.trottyzone.com/product/woocommerce-checkout-manager-pro/\">WooCommerce Checkout Manager Pro</a> offers these cool nifty extra features:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Would you like this plugin translated in your own language? \n"
+"Do you want to update an existing translation?"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Find out how at <a href=\"http://www.trottyzone.com/translating-woocommerce-checkout-manager-in-your-language/\">Translating WooCommerce Checkout Manager in your Language</a>."
+msgstr ""
+
+#. Found in installation header.
+msgid "Minimum Requirements"
+msgstr ""
+
+#. Found in installation header.
+msgid "WP installation"
+msgstr ""
+
+#. Found in installation header.
+msgid "NP: The downloaded zip file is the file that you download from wordpress.org."
+msgstr ""
+
+#. Found in installation header.
+msgid "FTP installation"
+msgstr ""
+
+#. Found in installation header.
+msgid "Updating"
+msgstr ""
+
+#. Found in installation list item.
+msgid "WooCommerce 2.2 +"
+msgstr ""
+
+#. Found in installation list item.
+msgid "WordPress 3.8 or greater"
+msgstr ""
+
+#. Found in installation list item.
+msgid "PHP version 5.2.4 or greater"
+msgstr ""
+
+#. Found in installation list item.
+msgid "MySQL version 5.0 or greater"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Log in to your WordPress dashboard"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Navigate to the Plugins menu and click Add New."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Click Upload Plugin"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Click Choose File and select downloaded zip file"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Click Install Now"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "The manual installation method involves downloading the plugin and uploading it to your webserver via an FTP application. The WordPress codex contains instructions on how to do this here."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Automatic updates are delivered just like any other WordPress plugin."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Initial"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Added required attribute removal"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "bug fix!"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "More features added."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "some bugs fixed"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "more bugs fixed"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "add/remove required field for each new fields"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Custom fields data are added to the receipt"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Checkout process fix"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "bug fix"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Additional features"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Localization Ready"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Added features for shipping"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "remove fields for shipping"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "required attribute bug fix and included translations"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Bug fixes"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Javascript fix and rename fields inserted"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "code review"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "fields positioning, fixed."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "bug fixed."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Select date function, included."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Select option and checkbox functions, included."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "updating to standard."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "bug fix- force selection for option and minor fix."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Added feature."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Translations updated"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid ""
+"Included translations - Vietnamse, Italian, European Portuguese, Brazilian Portuguese\n"
+"Layout fixed on Order Summary Page"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Bug fix."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Bulgarian language by Ivo Minchev"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Bug fixes."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Compatibility with 2.1.7 WooCommerce &amp;&amp; WPML"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "WPML bug fix"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "WPML bug fix 2 (translation for e-mails)"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "WPML bug fixes 3"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "WPML bug fixes 4"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid ""
+"GUI + Code clean up.\n"
+"Multi-lang Save issue fix."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid ""
+"Add Error Fix.\n"
+"Add WooCommerce Order/Customer CSV Export support\n"
+"Able to Change additional information header"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid ""
+"Add Error Fix 2.\n"
+"GUI upgrade."
+msgstr ""
+
+#. Found in faq header.
+msgid "How to fix fields that are not showing on checkout page properly?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How do I review the data from the custom fields?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How do you access saved data to be used with WooCommerce PDF Invoices &amp; Packing Slips?"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Go to your desired Order."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Click \"Screen Options\""
+msgstr ""
+
+#. Found in faq list item.
+msgid "Check \"Custom Fields\""
+msgstr ""
+
+#. Found in faq list item.
+msgid "Scroll down till you see \"Custom Fields\" section."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Usually this is an CSS issue. If your theme comes with the option to input your very own custom CSS, you can use the abbreviation field name as part of the CSS code to set the fields in the way that you want."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Example :"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"Your order data can be reviewed in each order. By default your \"Custom Fields\" section should be showing allowing you to see the custom fields data.\n"
+"If the fields are not showing, follow these steps:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The above plugin requests that you code the fields in the template. To access the saved data, use the abbreviation name of the field. As we are using the first abbreviation field as an example. Where \"myfield1\" is the abbreviation name, and \"My custom field:\" is the label."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Example:"
+msgstr ""
