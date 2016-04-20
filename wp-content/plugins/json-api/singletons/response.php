@@ -77,6 +77,7 @@ class JSON_API_Response {
   function respond($result, $status = 'ok', $http_status = 200) {
     global $json_api;
     $json = $this->get_json($result, $status);
+    //var_dump($json);
     $status_redirect = "redirect_$status";
     if ($json_api->query->dev || !empty($_REQUEST['dev'])) {
       // Output the result in a human-redable format

@@ -17,7 +17,9 @@ class JSON_API {
     $controller = strtolower($this->query->get_controller());
     $available_controllers = $this->get_controllers();
     $enabled_controllers = explode(',', get_option('json_api_controllers', 'core'));
+    //var_dump($enabled_controllers);
     $active_controllers = array_intersect($available_controllers, $enabled_controllers);
+    //var_dump($active_controllers);exit;
     
     if ($controller) {
       
@@ -40,8 +42,9 @@ class JSON_API {
       }
       
       $this->controller = new $controller_class();
+   
       $method = $this->query->get_method($controller);
-      
+         //var_dump($method);
       if ($method) {
         
         $this->response->setup();
@@ -278,11 +281,13 @@ class JSON_API {
   }
   
   function get_controllers() {
+  	  //debug_print_backtrace();
     $controllers = array();
     $dir = json_api_dir();
     $this->check_directory_for_controllers("$dir/controllers", $controllers);
     $this->check_directory_for_controllers(get_stylesheet_directory(), $controllers);
     $controllers = apply_filters('json_api_controllers', $controllers);
+    //var_dump($controllers);
     return array_map('strtolower', $controllers);
   }
   

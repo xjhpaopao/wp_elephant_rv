@@ -6,11 +6,11 @@ Tags: json api, RESTful user registration, authentication, RESTful Facebook Logi
 
 Contributors: parorrey
 
-Stable tag: 1.9.1
+Stable tag: 2.2
 
 Requires at least: 3.0.1
 
-Tested up to: 4.1.2
+Tested up to: 4.4.2
 
 License: GPLv2 or later
 
@@ -52,7 +52,30 @@ A pro version of this plugin, JSON API User Plus, is available here http://www.p
 
 'JSON API User Plus' includes API key which protects and restricts the endpoint calls. This key can be updated from Settings > User Plus options page. Your app must include this key with every call to get the data from REST API. Please see documentation for calling endpoints examples for 'JSON API User Plus'.
 
-'JSON API User Plus' also enables you to `add_post`, `update_post`, `delete_post` with featured image via RESTful endpoints calls. It also enabled you to use BuddyPress Messages component endpoints via REST. Please see details http://www.parorrey.com/solutions/json-api-user-plus/ for all the available endpoints. 
+JSON API User Plus features include:
+
+* Generate Auth Cookie for user authentication
+* Validate Auth Cookie
+* RESTful User Registration
+* RESTful Facebook Login/Registration with valid access_token
+* RESTful BuddyPress xProfile fields update
+* Get User Meta and xProfile fields
+* Update User Meta and xProfile fields
+* Delete User Meta
+* Password Reset
+* Get/Upload Avatar
+* Get User Info
+* Post Comment
+* Add Post, Update Post, Delete Post
+* Add/Edit/Delete Custom Post Type, Custom Fields
+* Search User
+* BuddyPress Activities
+* BuddyPress Members
+* BuddyPress Friends
+* BuddyPress Notifications
+* BuddyPress Settings
+* & many more
+
 
 ==Installation==
 
@@ -68,6 +91,16 @@ To install JSON API User just follow these steps:
 
 
 ==Changelog==
+
+= 2.2 =
+* Updated 'retrieve_password' endpoint to fix the bug finally, no more invalid key error.
+
+= 2.1 =
+* Updated 'retrieve_password' endpoint to fix the bug. WordPress 4.3.1 made it stopped working.
+* Updated Documentation.
+
+= 2.0 =
+* Updated 'register' endpoint. WordPress 4.3.1 changed wp_new_user_notification function and it stopped email notification for new user. Custom password is not available anymore. Only system generated password is available via email.
 
 = 1.9.1 =
 * removed debugging code.
@@ -180,10 +213,10 @@ This returns plugin version.
 
 = Method: register =
 
-http://localhost/api/user/register/?username=john&email=john@domain.com&nonce=8bdfeb4e16&display_name=John
+http://localhost/api/user/register/?username=john&email=john@domain.com&nonce=8bdfeb4e16&display_name=John&notify=both
 
 To register user & get valid cookie for 100 seconds:
-http://localhost/api/user/register/?username=john&email=john@domain.com&nonce=8bdfeb4e16&display_name=John&seconds=100
+http://localhost/api/user/register/?username=john&email=john@domain.com&display_name=John&notify=both&seconds=100
 
 Optional fields: 'user_pass', 'user_nicename', 'user_url', 'nickname', 'first_name', 'last_name', 'description', 'rich_editing', 'user_registered', 'jabber', 'aim', 'yim', 'comment_shortcuts', 'admin_color', 'use_ssl', 'show_admin_bar_front'. 
 
@@ -191,8 +224,7 @@ Please make sure you provide valid values that these fields expect in correct fo
 
 To disbale registration email notification to user:
 
-http://localhost/api/user/register/?username=john&email=john@domain.com&nonce=8bdfeb4e16&display_name=John&user_pass=8734tHYS&notify=no
-
+http://localhost/api/user/register/?username=john&email=john@domain.com&nonce=8bdfeb4e16&display_name=John&notify=no
 
 
 = Method: fb_connect =

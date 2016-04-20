@@ -255,6 +255,7 @@ class JSON_API_Post {
   }
   
   function set_custom_fields_value() {
+
     global $json_api;
     if ($json_api->include_value('custom_fields')) {
       $wp_custom_fields = get_post_custom($this->id);
@@ -263,13 +264,16 @@ class JSON_API_Post {
         $keys = explode(',', $json_api->query->custom_fields);
       }
       foreach ($wp_custom_fields as $key => $value) {
-        if ($json_api->query->custom_fields) {
-          if (in_array($key, $keys)) {
+        if ($json_api->query->custom_fields) 
+          {
+            if (in_array($key, $keys)) 
+            {
+                $this->custom_fields->$key = $wp_custom_fields[$key];
+            }
+          } else//if (substr($key, 0, 1) != '_') 
+          {
             $this->custom_fields->$key = $wp_custom_fields[$key];
           }
-        } else if (substr($key, 0, 1) != '_') {
-          $this->custom_fields->$key = $wp_custom_fields[$key];
-        }
       }
     } else {
       unset($this->custom_fields);

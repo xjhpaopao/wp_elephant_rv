@@ -18,6 +18,7 @@ class JSON_API_Respond_Controller {
     } else if (!is_email($_REQUEST['email'])) {
       $json_api->error("Please enter a valid email address.");
     }
+
     $pending = new JSON_API_Comment();
     return $pending->handle_submission();
   }

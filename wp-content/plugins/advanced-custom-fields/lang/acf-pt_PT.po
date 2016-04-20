@@ -5,15 +5,15 @@ msgstr ""
 "Project-Id-Version: Advanced Custom Fields\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/advanced-custom-fields\n"
 "POT-Creation-Date: 2015-07-23 11:02+0100\n"
-"PO-Revision-Date: 2015-07-23 11:02+0100\n"
-"Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
+"PO-Revision-Date: 2016-04-04 10:09+1000\n"
+"Last-Translator: Elliot Condon <e@elliotcondon.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.2\n"
+"X-Generator: Poedit 1.8.1\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
 "_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
@@ -76,7 +76,7 @@ msgstr "Campo personalizado actualizado."
 
 #: acf.php:599
 msgid "Custom field deleted."
-msgstr "Campo personalizado apagado."
+msgstr "Campo personalizado eliminado."
 
 #. translators: %s: date and time of the revision
 #: acf.php:602
@@ -126,7 +126,7 @@ msgstr "Erro"
 
 #: core/actions/export.php:33
 msgid "No ACF groups selected"
-msgstr "Nenhum grupo ACF selecionado"
+msgstr "Nenhum grupo ACF seleccionado"
 
 #: core/api.php:1171
 msgid "Update"
@@ -252,7 +252,7 @@ msgstr "Grupos de campos"
 
 #: core/controllers/export.php:222
 msgid "Select the field groups to be exported"
-msgstr "Selecione os grupos de campos para serem exportados"
+msgstr "Seleccione os grupos de campos para serem exportados"
 
 #: core/controllers/export.php:239 core/controllers/export.php:252
 msgid "Export to XML"
@@ -334,7 +334,7 @@ msgstr ""
 #: core/controllers/export.php:272
 msgid "Select field group(s) from the list and click \"Create PHP\""
 msgstr ""
-"Selecione o(s) grupo(s) de campos da lista e clique em \"Exportar PHP\""
+"Seleccione o(s) grupo(s) de campos da lista e clique em \"Exportar PHP\""
 
 #: core/controllers/export.php:273 core/controllers/export.php:302
 msgid "Copy the PHP code generated"
@@ -412,7 +412,7 @@ msgstr "O título do grupo de campos é obrigatório"
 
 #: core/controllers/field_group.php:362
 msgid "copy"
-msgstr "copiar"
+msgstr "cópia"
 
 #: core/controllers/field_group.php:363 core/views/meta_box_location.php:62
 #: core/views/meta_box_location.php:159
@@ -537,7 +537,7 @@ msgstr "Título"
 
 #: core/controllers/field_groups.php:216 core/controllers/field_groups.php:253
 msgid "Changelog"
-msgstr "Changelog"
+msgstr "Registo de alterações"
 
 #: core/controllers/field_groups.php:217
 #, php-format
@@ -735,7 +735,7 @@ msgstr "Possíveis problemas"
 #: core/controllers/field_groups.php:362
 #, php-format
 msgid ""
-"Due to the sizable changes surounding Add-ons, field types and action/"
+"Due to the sizable changes surrounding Add-ons, field types and action/"
 "filters, your website may not operate correctly. It is important that you "
 "read the full %sMigrating from v3 to v4%s guide to view the full list of "
 "changes."
@@ -873,7 +873,7 @@ msgstr "Ocultar detalhes"
 
 #: core/controllers/input.php:67
 msgid "Validation Failed. One or more fields below are required."
-msgstr "Falha ao validar. Um ou mais campos abaixo são obrigatórios."
+msgstr "Falhou ao validar. Um ou mais campos abaixo são obrigatórios."
 
 #: core/controllers/upgrade.php:77
 msgid "Upgrade"
@@ -985,7 +985,7 @@ msgstr "Formato dos dados"
 
 #: core/fields/date_picker/date_picker.php:127
 msgid ""
-"This format will determin the value saved to the database and returned via "
+"This format will determine the value saved to the database and returned via "
 "the API"
 msgstr ""
 "Este será o formato guardado na base de dados e depois devolvido através da "
@@ -1076,7 +1076,7 @@ msgstr "Conteúdo"
 
 #: core/fields/file.php:26
 msgid "Select File"
-msgstr "Selecionar ficheiro"
+msgstr "Seleccionar ficheiro"
 
 #: core/fields/file.php:27
 msgid "Edit File"
@@ -1096,7 +1096,7 @@ msgstr "Tamanho"
 
 #: core/fields/file.php:123
 msgid "No File Selected"
-msgstr "Nenhum ficheiro selecionado"
+msgstr "Nenhum ficheiro seleccionado"
 
 #: core/fields/file.php:123
 msgid "Add File"
@@ -1133,7 +1133,7 @@ msgstr "Mapa do Google"
 
 #: core/fields/google-map.php:33
 msgid "Locating"
-msgstr "Localizando"
+msgstr "A obter localização"
 
 #: core/fields/google-map.php:34
 msgid "Sorry, this browser does not support geolocation"
@@ -1165,7 +1165,7 @@ msgstr "Zoom"
 
 #: core/fields/google-map.php:200
 msgid "Set the initial zoom level"
-msgstr "Definie o nível de zoom inicial"
+msgstr "Definir o nível de zoom inicial"
 
 #: core/fields/google-map.php:217
 msgid "Height"
@@ -1201,7 +1201,7 @@ msgstr "Editar"
 
 #: core/fields/image.php:97
 msgid "No image selected"
-msgstr "Nenhuma imagem selecionada"
+msgstr "Nenhuma imagem seleccionada"
 
 #: core/fields/image.php:97
 msgid "Add Image"
@@ -1278,7 +1278,7 @@ msgstr "Relacional"
 #: core/fields/relationship.php:582 core/fields/relationship.php:661
 #: core/views/meta_box_location.php:75
 msgid "Post Type"
-msgstr "Tipo de artigo"
+msgstr "Tipo de conteúdo"
 
 #: core/fields/page_link.php:127 core/fields/post_object.php:329
 #: core/fields/select.php:214 core/fields/taxonomy.php:489
@@ -1350,7 +1350,7 @@ msgstr "Pesquisar..."
 
 #: core/fields/relationship.php:468
 msgid "Filter by post type"
-msgstr "Filtrar por tipo de artigo"
+msgstr "Filtrar por tipo de conteúdo"
 
 #: core/fields/relationship.php:562
 msgid "Return Format"
@@ -1370,7 +1370,7 @@ msgstr "Pesquisa"
 
 #: core/fields/relationship.php:641
 msgid "Post Type Select"
-msgstr "Selecção de tipo de artigo"
+msgstr "Selecção de tipo de conteúdo"
 
 #: core/fields/relationship.php:649
 msgid "Elements"
@@ -1395,7 +1395,7 @@ msgstr "Máximo de artigos"
 #: core/fields/select.php:18 core/fields/select.php:109
 #: core/fields/taxonomy.php:480 core/fields/user.php:313
 msgid "Select"
-msgstr "Selector"
+msgstr "Seleccione"
 
 #: core/fields/tab.php:19
 msgid "Tab"
@@ -1478,7 +1478,7 @@ msgid "Formatting"
 msgstr "Formatação"
 
 #: core/fields/text.php:177 core/fields/textarea.php:165
-msgid "Effects value on front end"
+msgid "Affects value on front end"
 msgstr "Define o formato do conteúdo na frente do site"
 
 #: core/fields/text.php:186 core/fields/textarea.php:174
@@ -1587,11 +1587,11 @@ msgstr "Duplicar"
 
 #: core/views/meta_box_fields.php:110
 msgid "Delete this Field"
-msgstr "Apagar este campo"
+msgstr "Eliminar este campo"
 
 #: core/views/meta_box_fields.php:110
 msgid "Delete"
-msgstr "Apagar"
+msgstr "Eliminar"
 
 #: core/views/meta_box_fields.php:127
 msgid "This is the name which will appear on the EDIT page"
@@ -1870,7 +1870,7 @@ msgstr "Enviar trackbacks"
 
 #, fuzzy
 #~ msgid ""
-#~ "Do to the sizable changes surounding Add-ons, field types and action/"
+#~ "Due to the sizable changes surrounding Add-ons, field types and action/"
 #~ "filters, your website may not operate correctly. It is important that you "
 #~ "read the full"
 #~ msgstr ""

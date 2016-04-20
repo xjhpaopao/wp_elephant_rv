@@ -20,16 +20,16 @@
 
 // ** MySQL 设置 - 具体信息来自您正在使用的主机 ** //
 /** WordPress数据库的名称 */
-define('DB_NAME', 'wordpress');
+define('DB_NAME', 'test');
 
 /** MySQL数据库用户名 */
-define('DB_USER', 'homestead');
+define('DB_USER', 'root');
 
 /** MySQL数据库密码 */
-define('DB_PASSWORD', 'secret');
+define('DB_PASSWORD', '1234');
 
 /** MySQL主机 */
-define('DB_HOST', 'localhost');
+define('DB_HOST', '127.0.0.1');
 
 /** 创建数据表时默认的文字编码 */
 define('DB_CHARSET', 'utf8mb4');
@@ -47,14 +47,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'S<B9/5=zTHbfEk%c|];Cx>h@69Snt%0US{{j+j{M#+ @u0x:79eDB?=f?]p0-gq8');
-define('SECURE_AUTH_KEY',  'JM6Q$$>WMU7fDSy5;3I`CM,X-0~$k!vNl&u0^d@9hAPV>!Ow!Z yX69+D6*]@CiV');
-define('LOGGED_IN_KEY',    '`0CJX1>x^ $my-US${)1!uy^+U9YUu:r/:-,Lbm$*,nlS|Tfw[X${3{:[8~T8lWw');
-define('NONCE_KEY',        '~;c_4;N[EWydJ 2TDlpIF)|+gy7|:w<Rt&*4H?^~jbL$5!!DzbPfIVV.qw_vEKkN');
-define('AUTH_SALT',        '=SqEdX^/.z{-?-20O`MmBg>y1o)<}94rsCW~|s9,}3U35{F8T/t-us0A;KLWOGJU');
-define('SECURE_AUTH_SALT', '-V!n!-fysgu4M}OhoIs@&V>DgV~#(+yXJ1u~N(YW|OjM@h ~9}[p+hF2~-x&-K6A');
-define('LOGGED_IN_SALT',   'l:&SD]TlE2l`q|d$y%Y7Z{8=l4m8dyGTRD}.6-X#DPyHgkI|,RYxO&x3hF+.n|`X');
-define('NONCE_SALT',       'j*QEt3C*5^]|+rv~zyV&j)I.fO_lOF(+Fx|{e,o1@vk0G;.ionSH+|FOIJQ)fy=7');
+define('AUTH_KEY',         'J*px pvC^03MzlP4rb`._BG1*ys@&0ENh8*r9UD|-~1+a9A%I+!Qlr:92.Y4Fgko');
+define('SECURE_AUTH_KEY',  '2pyeq9TB^[wvRx,_mfQIRT9|.@|ho/-<tCm4)p-kqhUqJzKrw}2DSNEz|9].Bk<C');
+define('LOGGED_IN_KEY',    'VA-jL)(1`|{qL+tN0m(i.(X-^VS=}S^ `A0}+(zfa+i@JVWpU[9O)g9r5ml k02>');
+define('NONCE_KEY',        'B+T=FL9}Cc4,x[2BKf/<-.sYUQ(|L-I+lyj_Ls)mQ4.mBP{+[8`G~Nj#{ef+w$&A');
+define('AUTH_SALT',        'rrr8/xlp<:3@[.bsna$9-H53c+5%~k4x[Z+6J+,|LF{&>E#@dk@+f)UjAe8hF3i5');
+define('SECURE_AUTH_SALT', 'ch$r1NdR92qO 6WIk&_LiGcw-y+Ox,=)1Wf;MDfsz6|?Ky EuI^@-9JVjRIRiV[r');
+define('LOGGED_IN_SALT',   '(Q 1Ol@gZ_6;m*-@XQ_`rcOc2WBhc:um++WNpQ+NVX|&Dq0N<)fXHF%f=e]HF.Cp');
+define('NONCE_SALT',       '|i0Q34B-:@K_xti@m,2,dtA+yz%M#m.y]42Fdti~-t^^.p+^{3bQGghPbO!`SiV0');
 
 /**#@-*/
 

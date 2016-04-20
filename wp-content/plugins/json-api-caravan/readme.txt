@@ -1,10 +1,10 @@
-=== JSON API User ===
+=== JSON API Caravan ===
 
 Donate link:
 
 Tags: json api, RESTful user registration, authentication, RESTful Facebook Login, RESTful User Meta and BuddyPress xProfile
 
-Contributors: parorrey
+Contributors: ian
 
 Stable tag: 1.9.1
 

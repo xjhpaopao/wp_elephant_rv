@@ -130,11 +130,12 @@ $user_id = wp_insert_user( $user );
 You could create your own e-mail instead of using this function*/
 
 if( isset($_REQUEST['user_pass']) && $_REQUEST['notify']=='no') {
-	$notify = false;	
-  }else $notify = true;
+	$notify = '';	
+  }elseif($_REQUEST['notify']!='no') $notify = $_REQUEST['notify'];
 
 
-if($user_id && $notify) wp_new_user_notification( $user_id, $user_pass );	  
+if($user_id) wp_new_user_notification( $user_id, '',$notify );  
+
 
 			}
 		} 
@@ -150,7 +151,7 @@ if($user_id && $notify) wp_new_user_notification( $user_id, $user_pass );
 		  "user_id" => $user_id	
 		  ); 		  
 
-  }   
+  } 
 
 public function get_avatar(){	  
 
@@ -271,11 +272,10 @@ public function retrieve_password(){
 
     }
 
-    $hashed = $wp_hasher->HashPassword( $key );
+    
+    $hashed = time() . ':' . $wp_hasher->HashPassword( $key );
 
-    $wpdb->update( $wpdb->users, array( 'user_activation_key' => $hashed ), array( 'user_login' => $user_login ) );
-
-
+    $wpdb->update( $wpdb->users, array( 'user_activation_key' => $hashed ), array( 'user_login' => $user_login ) ); 
 
     $message = __('Someone requested that the password be reset for the following account:') . "\r\n\r\n";
 
